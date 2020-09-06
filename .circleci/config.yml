@@ -19,6 +19,6 @@ workflows:
   main:
     jobs:
       - build-and-test
-        filters:
-          tags:
-            only: /.*/
+          filters:
+            tags:
+              only: /.*/
